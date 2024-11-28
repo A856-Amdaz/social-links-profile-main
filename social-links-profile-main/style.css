@@ -1,0 +1,110 @@
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+    --Grey900: hsl(0, 0%, 8%);
+}
+
+* {
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Grey900);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    padding: 30%;
+}
+
+.container{
+    width: 300px;
+    border-radius: 10px;
+    background-color: var(--Grey800);
+    color: var(--White);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.container img{
+    border-radius: 50%;
+}
+h5{
+    color: var(--Green);
+}
+
+button{
+    width: 100%;
+    background-color: var(--Grey700);
+    color: var(--White);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: none;
+}
+
+button:hover{
+    background-color: var(--Green) ;
+    transition: ease-in-out 2s;
+}
+
+/* button {
+    background-color: var(--Grey700);
+    width: 0px;
+    color: var(--White);
+    padding: 2% 2%;
+    border-radius: 10px;
+    height: 40px;
+}
+
+button:hover {
+    background-color: var(--Green);
+    transition: 2s ease-in-out;
+}
+
+.okay {
+    background-color: var(--Grey800);
+    border: 0px;
+    padding: 10%;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+h5 {
+    color: var(--Green);
+}
+
+img {
+    border: 0%;
+    border-radius: 50%;
+}
+
+h2 {
+    color: var(--White);
+}
+
+p {
+    color: var(--White);
+}
+
+*/ 
